@@ -1,0 +1,159 @@
+header {
+background: url('assets/img/fashion/Emergent_16.jpg') no-repeat top center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+overflow:hidden;
+}
+
+
+html,
+body {
+  height: 100%;
+}
+@media (min-width: 1025px) {
+  .pricing {
+    background-attachment: fixed;
+  }
+}
+.floating-label-form-group {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #e1e1e1;
+}
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  z-index: 1;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+  border-radius: 0;
+  font-size: 1.5em;
+  background: none;
+  box-shadow: none !important;
+  resize: none;
+}
+.floating-label-form-group label {
+  display: block;
+  z-index: 0;
+  position: relative;
+  top: 2em;
+  margin: 0;
+  font-size: 0.85em;
+  line-height: 1.764705882em;
+  vertical-align: middle;
+  vertical-align: baseline;
+  opacity: 0;
+  -webkit-transition: top 0.5s ease,opacity 0.5s ease;
+  -moz-transition: top 0.5s ease,opacity 0.5s ease;
+  -ms-transition: top 0.5s ease,opacity 0.5s ease;
+  transition: top 0.5s ease,opacity 0.5s ease;
+}
+.floating-label-form-group::not(:first-child) {
+  padding-left: 14px;
+  border-left: 1px solid #e1e1e1;
+}
+.floating-label-form-group-with-value label {
+  top: 0;
+  opacity: 1;
+}
+.floating-label-form-group-with-focus label {
+  color: #ffc153;
+}
+form .row:first-child .floating-label-form-group {
+  border-top: 1px solid #e1e1e1;
+}
+footer.footer {
+  color: rgba(255, 255, 255, 0.7);
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 50px 0 20px;
+}
+footer.footer a {
+  color: rgba(255, 255, 255, 0.7);
+}
+footer.footer a:hover {
+  color: white;
+}
+footer.footer p {
+  font-size: 22px;
+}
+footer.footer .contact-details {
+  margin: 75px 0;
+}
+footer.footer .social {
+  margin-bottom: 75px;
+}
+footer.footer .copyright p.small {
+  font-size: 14px;
+}
+@media (min-width: 1025px) {
+  footer.footer {
+    background-attachment: fixed;
+  }
+}
+.btn-outline-light {
+  color: white;
+  border: 1px solid white;
+  background: transparent;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.btn-outline-light:hover,
+.btn-outline-light:focus {
+  color: #ffc153;
+  background: white;
+  outline: none;
+}
+.btn-outline-dark {
+  color: #222222;
+  border: 1px solid #222222;
+  background: transparent;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.btn-outline-dark:hover,
+.btn-outline-dark:focus {
+  color: white;
+  background: #ffc153;
+  border-color: #ffc153;
+  outline: none;
+}
+.btn {
+  border-radius: 0;
+  padding: 12px 18px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.btn:focus,
+.btn:active,
+.btn.active {
+  outline: none;
+}
+.btn-full-width {
+  border: 0;
+  border-radius: 0;
+  background-color: #222222;
+  color: white;
+  padding: 50px 0;
+  font-size: 26px;
+  font-weight: 200;
+  letter-spacing: normal;
+  text-transform: none;
+}
+.btn-full-width:hover {
+  background-color: #ffc153;
+  color: white;
+}
+.btn-full-width:focus {
+  color: white;
+}

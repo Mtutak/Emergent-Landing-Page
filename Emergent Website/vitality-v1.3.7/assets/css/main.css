@@ -1,0 +1,79 @@
+.uvp{
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 90px auto 10px auto;
+}
+
+.uvp .header {
+	color: white;
+    font-size: 36px;
+    line-height: 30px;
+    width: 60%;
+}
+
+.uvp .value  {
+	color: white;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 20px;
+    font-weight: 700;
+    width: 60%;
+}
+
+/* .eyecatch{
+	background-color: rgba(255,255,255,0.5);
+	padding:12px 15px 12px 15px;
+	border-radius: 10px;
+	margin-top: 115px;
+	max-width:40%;
+	margin: 115px 0px 10px 30px;
+	}
+
+*/
+	
+
+
+.navbar-brand img {
+	width:auto;
+	height:50px;
+	margin-top:-3px;
+}
+
+.navbar {
+	height:65px;
+}
+
+
+.fouricons {
+	padding:10px;
+	max-height: 250px;
+	background-color: rgba(255,255,255,0.5);
+
+}
+
+.signupfold {
+	background:orange;
+	border-radius: 10px;
+	text-align: left;
+	width:40%;
+	margin:0 0px 10px 80px;
+	padding:8px;
+
+}
+
+.signupfold .privacy {
+text-align: center !important;
+}
+
+.about-content img {
+	max-width: 75px;
+	margin: 0 auto;
+}
+
+
+
+
+
